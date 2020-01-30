@@ -30,13 +30,14 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'UBKAccessibilityKit/UBKAccessibilityKit/**/*.{h,m}'
+  s.source_files = 'UBKAccessibilityKit/UBKAccessibilityKit/**/*.{h,m,xib}'
 
-  #s.resources = ['']
+  s.resources = ['UBKAccessibilityKit/UBKAccessibilityKit/**/*.{png,xcassets}']
   
-  s.resource_bundles = {
-    'UBKAccessibilityKit' => ['UBKAccessibilityKit/UBKAccessibilityKit/**/*.{png,xcassets,xib,storyboard}']
-  }
+  # s.resource_bundles = { 'Resources' => ['MyFramework/**/*.{xib,xcassets}'] }
+  # s.resource_bundles = {
+  #   'Resources' => ['UBKAccessibilityKit/UBKAccessibilityKit/**/*.{png,xcassets,storyboard}']
+  # }
 
   #s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

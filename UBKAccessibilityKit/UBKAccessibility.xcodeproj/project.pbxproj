@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		357A2CA4743FDE0A48A42F01 /* Pods_UBKAccessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE575D3BEAAD5112C6AED2E /* Pods_UBKAccessibility.framework */; };
 		542374F421AF64DF00959D24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 542374F321AF64DF00959D24 /* AppDelegate.m */; };
 		542374FA21AF64DF00959D24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542374F821AF64DF00959D24 /* Main.storyboard */; };
 		542374FC21AF64E100959D24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 542374FB21AF64E100959D24 /* Assets.xcassets */; };
 		542374FF21AF64E100959D24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542374FD21AF64E100959D24 /* LaunchScreen.storyboard */; };
 		5423750221AF64E100959D24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5423750121AF64E100959D24 /* main.m */; };
+		6D793A94BC2AFE904F8A85E9 /* Pods_UBKAccessibilityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A449F01332C19DA2A3D9B67 /* Pods_UBKAccessibilityTests.framework */; };
 		9A6E4D5623E09C3F00894CE3 /* BuildFile in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9A6E4D6223E09FC400894CE3 /* BuildFile in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A535575E236F689D009B4577 /* UBKAccessibilityLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A535575D236F689D009B4577 /* UBKAccessibilityLabelTests.m */; };
@@ -32,7 +32,7 @@
 		A558497722434F4900D2CE2C /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A558497622434F4900D2CE2C /* DemoViewController.m */; };
 		A558497F2243542800D2CE2C /* ButtonsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A558497E2243542800D2CE2C /* ButtonsTableViewController.m */; };
 		A594A44E2248EFF000114B36 /* DemoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A594A44D2248EFF000114B36 /* DemoDetailViewController.m */; };
-		D6F2EFEAAB5EF0C7BA3C6AB0 /* Pods_UBKAccessibilityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C61F6A357E6253536278F1A /* Pods_UBKAccessibilityTests.framework */; };
+		CFF9B7FB979A4F012070162C /* Pods_UBKAccessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD0BAF3DE21B7733B0778C6 /* Pods_UBKAccessibility.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,7 +51,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4C61F6A357E6253536278F1A /* Pods_UBKAccessibilityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UBKAccessibilityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB177E6F664361F153A954F /* Pods-UBKAccessibilityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UBKAccessibilityTests.debug.xcconfig"; path = "Target Support Files/Pods-UBKAccessibilityTests/Pods-UBKAccessibilityTests.debug.xcconfig"; sourceTree = "<group>"; };
 		542374EF21AF64DF00959D24 /* UBKAccessibility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UBKAccessibility.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		542374F221AF64DF00959D24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		542374F321AF64DF00959D24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -60,10 +60,10 @@
 		542374FE21AF64E100959D24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5423750021AF64E100959D24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5423750121AF64E100959D24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7DE575D3BEAAD5112C6AED2E /* Pods_UBKAccessibility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UBKAccessibility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FA318BDD3BC80C3C76189D7 /* Pods-UBKAccessibility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UBKAccessibility.debug.xcconfig"; path = "Target Support Files/Pods-UBKAccessibility/Pods-UBKAccessibility.debug.xcconfig"; sourceTree = "<group>"; };
+		7A449F01332C19DA2A3D9B67 /* Pods_UBKAccessibilityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UBKAccessibilityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6E4D5A23E09EDE00894CE3 /* UBKAccessibilityKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UBKAccessibilityKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6E4D5D23E09F4100894CE3 /* UBKAccessibilityKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UBKAccessibilityKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0B16A7A3FB6CB009F84EE77 /* Pods-UBKAccessibility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UBKAccessibility.debug.xcconfig"; path = "Target Support Files/Pods-UBKAccessibility/Pods-UBKAccessibility.debug.xcconfig"; sourceTree = "<group>"; };
 		A514AEA82224797200593757 /* UBKAccessibilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UBKAccessibilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A514AEAC2224797200593757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A535575D236F689D009B4577 /* UBKAccessibilityLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UBKAccessibilityLabelTests.m; sourceTree = "<group>"; };
@@ -93,9 +93,9 @@
 		A594A44D2248EFF000114B36 /* DemoDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoDetailViewController.m; sourceTree = "<group>"; };
 		A5C7F3C823A9B1C400888E98 /* UBKConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = UBKConfig.xcconfig; sourceTree = "<group>"; };
 		A5C7F44323AC2C6D00888E98 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		CA311D6FA6F5AE520EE0E14B /* Pods-UBKAccessibilityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UBKAccessibilityTests.release.xcconfig"; path = "Target Support Files/Pods-UBKAccessibilityTests/Pods-UBKAccessibilityTests.release.xcconfig"; sourceTree = "<group>"; };
-		CBA569A6451E2AB64030B51F /* Pods-UBKAccessibility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UBKAccessibility.release.xcconfig"; path = "Target Support Files/Pods-UBKAccessibility/Pods-UBKAccessibility.release.xcconfig"; sourceTree = "<group>"; };
-		F9C80A3A50092EABA268C589 /* Pods-UBKAccessibilityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UBKAccessibilityTests.debug.xcconfig"; path = "Target Support Files/Pods-UBKAccessibilityTests/Pods-UBKAccessibilityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B48A7F20D4EA7855B36879D9 /* Pods-UBKAccessibility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UBKAccessibility.release.xcconfig"; path = "Target Support Files/Pods-UBKAccessibility/Pods-UBKAccessibility.release.xcconfig"; sourceTree = "<group>"; };
+		DBD0BAF3DE21B7733B0778C6 /* Pods_UBKAccessibility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UBKAccessibility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F144C8D1902E4A6BB04F5C65 /* Pods-UBKAccessibilityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UBKAccessibilityTests.release.xcconfig"; path = "Target Support Files/Pods-UBKAccessibilityTests/Pods-UBKAccessibilityTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				357A2CA4743FDE0A48A42F01 /* Pods_UBKAccessibility.framework in Frameworks */,
+				CFF9B7FB979A4F012070162C /* Pods_UBKAccessibility.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,7 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6F2EFEAAB5EF0C7BA3C6AB0 /* Pods_UBKAccessibilityTests.framework in Frameworks */,
+				6D793A94BC2AFE904F8A85E9 /* Pods_UBKAccessibilityTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 			children = (
 				9A6E4D5D23E09F4100894CE3 /* UBKAccessibilityKit.framework */,
 				9A6E4D5A23E09EDE00894CE3 /* UBKAccessibilityKit.framework */,
-				7DE575D3BEAAD5112C6AED2E /* Pods_UBKAccessibility.framework */,
-				4C61F6A357E6253536278F1A /* Pods_UBKAccessibilityTests.framework */,
+				DBD0BAF3DE21B7733B0778C6 /* Pods_UBKAccessibility.framework */,
+				7A449F01332C19DA2A3D9B67 /* Pods_UBKAccessibilityTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,10 +132,10 @@
 		3101B8D129BEC7BB8F301275 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A0B16A7A3FB6CB009F84EE77 /* Pods-UBKAccessibility.debug.xcconfig */,
-				CBA569A6451E2AB64030B51F /* Pods-UBKAccessibility.release.xcconfig */,
-				F9C80A3A50092EABA268C589 /* Pods-UBKAccessibilityTests.debug.xcconfig */,
-				CA311D6FA6F5AE520EE0E14B /* Pods-UBKAccessibilityTests.release.xcconfig */,
+				6FA318BDD3BC80C3C76189D7 /* Pods-UBKAccessibility.debug.xcconfig */,
+				B48A7F20D4EA7855B36879D9 /* Pods-UBKAccessibility.release.xcconfig */,
+				3BB177E6F664361F153A954F /* Pods-UBKAccessibilityTests.debug.xcconfig */,
+				F144C8D1902E4A6BB04F5C65 /* Pods-UBKAccessibilityTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -296,12 +296,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5423750521AF64E100959D24 /* Build configuration list for PBXNativeTarget "UBKAccessibility" */;
 			buildPhases = (
-				E85969AF73311670E704D481 /* [CP] Check Pods Manifest.lock */,
+				E1FBC678ABCC49A481B8146A /* [CP] Check Pods Manifest.lock */,
 				542374EB21AF64DF00959D24 /* Sources */,
 				542374EC21AF64DF00959D24 /* Frameworks */,
 				542374ED21AF64DF00959D24 /* Resources */,
 				9A6E4D5723E09C3F00894CE3 /* Embed Frameworks */,
-				F2714748A1847949372B85FB /* [CP] Embed Pods Frameworks */,
+				7E6D38CB121BBC67CB42E530 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -316,7 +316,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A514AEB12224797200593757 /* Build configuration list for PBXNativeTarget "UBKAccessibilityTests" */;
 			buildPhases = (
-				1A7F5E6E2F1A1916EED7B0CF /* [CP] Check Pods Manifest.lock */,
+				0F79F43B760BE38DDC3DACE5 /* [CP] Check Pods Manifest.lock */,
 				A514AEA42224797200593757 /* Sources */,
 				A514AEA52224797200593757 /* Frameworks */,
 				A514AEA62224797200593757 /* Resources */,
@@ -389,7 +389,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1A7F5E6E2F1A1916EED7B0CF /* [CP] Check Pods Manifest.lock */ = {
+		0F79F43B760BE38DDC3DACE5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -411,7 +411,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E85969AF73311670E704D481 /* [CP] Check Pods Manifest.lock */ = {
+		7E6D38CB121BBC67CB42E530 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UBKAccessibility/Pods-UBKAccessibility-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UBKAccessibility/Pods-UBKAccessibility-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UBKAccessibility/Pods-UBKAccessibility-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1FBC678ABCC49A481B8146A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -431,23 +448,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F2714748A1847949372B85FB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-UBKAccessibility/Pods-UBKAccessibility-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-UBKAccessibility/Pods-UBKAccessibility-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UBKAccessibility/Pods-UBKAccessibility-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -621,7 +621,7 @@
 		};
 		5423750621AF64E100959D24 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0B16A7A3FB6CB009F84EE77 /* Pods-UBKAccessibility.debug.xcconfig */;
+			baseConfigurationReference = 6FA318BDD3BC80C3C76189D7 /* Pods-UBKAccessibility.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -640,7 +640,7 @@
 		};
 		5423750721AF64E100959D24 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBA569A6451E2AB64030B51F /* Pods-UBKAccessibility.release.xcconfig */;
+			baseConfigurationReference = B48A7F20D4EA7855B36879D9 /* Pods-UBKAccessibility.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -659,7 +659,7 @@
 		};
 		A514AEAF2224797200593757 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9C80A3A50092EABA268C589 /* Pods-UBKAccessibilityTests.debug.xcconfig */;
+			baseConfigurationReference = 3BB177E6F664361F153A954F /* Pods-UBKAccessibilityTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -680,7 +680,7 @@
 		};
 		A514AEB02224797200593757 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA311D6FA6F5AE520EE0E14B /* Pods-UBKAccessibilityTests.release.xcconfig */;
+			baseConfigurationReference = F144C8D1902E4A6BB04F5C65 /* Pods-UBKAccessibilityTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;

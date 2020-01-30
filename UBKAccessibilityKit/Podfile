@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'UBKAccessibility' do
+  pod 'UBKAccessibilityKit', :path => '../'
+
+  target 'UBKAccessibilityTests' do
+    inherit! :search_paths
+
+    
+  end
+end

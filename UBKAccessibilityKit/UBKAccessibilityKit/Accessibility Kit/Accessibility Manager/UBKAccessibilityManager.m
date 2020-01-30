@@ -38,8 +38,10 @@
 const CGFloat maxWidth = 414;
 static const UBKAccessibilityManager *_ubkAccessibilityManager = nil;
 
-@interface UBKAccessibilityManager ()
 
+
+@interface UBKAccessibilityManager ()
+@property (nonatomic) NSBundle *thisBundle;
 @end
 
 @implementation UBKAccessibilityManager
@@ -57,8 +59,9 @@ static const UBKAccessibilityManager *_ubkAccessibilityManager = nil;
 {
     if (self = [super init])
     {
+        self.thisBundle = [NSBundle bundleForClass:self.class];
         //Configure the navigation of the inspector.
-        UBKAccessibilityElementsTableViewController *elementsViewController = [[UBKAccessibilityElementsTableViewController alloc]initWithNibName:@"UBKAccessibilityElementsTableViewController" bundle:[NSBundle bundleForClass:[UBKAccessibilityElementsTableViewController class]]];
+        UBKAccessibilityElementsTableViewController *elementsViewController = [[UBKAccessibilityElementsTableViewController alloc]initWithNibName:@"UBKAccessibilityElementsTableViewController" bundle:_thisBundle];
         self.navigationViewController = [[UBKNavigationController alloc]initWithUIElementsViewController:elementsViewController];
         
         self.inspectorContainerView = [[UBKAccessibilityInspectorContainerView alloc]initWithFrame:CGRectMake(0, 0, self.navigationViewController.view.frame.size.width, self.navigationViewController.view.bounds.size.height/2)];

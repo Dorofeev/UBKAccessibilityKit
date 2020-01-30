@@ -30,9 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'UBKAccessibilityKit/UBKAccessibilityKit/**/*.{h,m,xib}'
+  s.source_files = 'UBKAccessibilityKit/UBKAccessibilityKit/**/*.{h,m}'
 
-  s.resources = ['UBKAccessibilityKit/UBKAccessibilityKit/**/*.{png,xcassets}']
+  s.resources = ['UBKAccessibilityKit/UBKAccessibilityKit/**/*.{png,xcassets,xib}']
   
   # s.resource_bundles = { 'Resources' => ['MyFramework/**/*.{xib,xcassets}'] }
   # s.resource_bundles = {

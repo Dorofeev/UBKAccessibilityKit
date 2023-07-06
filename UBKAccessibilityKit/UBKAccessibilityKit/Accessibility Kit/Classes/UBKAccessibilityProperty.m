@@ -82,7 +82,7 @@
     {
         self.displayType = PropertyDisplayTypeColour;
         self.displayTitle = title;
-        self.displayColour = colour;
+        self.displayColour = [colour ubk_correctedColor];
         self.colourUpdateCompletionBlock = completionBlock;
         self.canUpdateUI = true;
     }
@@ -109,8 +109,8 @@
         self.displayType = PropertyDisplayTypeContrast;
         self.displayTitle = title;
         self.displayValue = value;
-        self.displayColour = foregroundColour;
-        self.displayAlternateColour = backgroundColour;
+        self.displayColour = [foregroundColour ubk_correctedColor];
+        self.displayAlternateColour = [backgroundColour ubk_correctedColor];
         self.displayAlternateTitle = alternateTitle;
         self.displayContrastScore = contrastScore;
         self.displayWarning = showWarning;

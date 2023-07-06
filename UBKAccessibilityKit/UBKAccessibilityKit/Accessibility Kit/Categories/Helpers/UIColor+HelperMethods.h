@@ -27,6 +27,7 @@
 - (UIColor *)ubk_lighterColour;
 - (UIColor *)ubk_darkerColour;
 - (UIColor *)ubk_analagousColour:(CGFloat)value;
+- (UIColor *)ubk_correctedColor;
 
 + (UIColor *)ubk_findBetterContrastColour:(UIColor *)forground backgroundColour:(UIColor *)background previousContrast:(double)previousContrast;
 + (UIColor *)ubk_colourFromHexString:(NSString *)hexString;

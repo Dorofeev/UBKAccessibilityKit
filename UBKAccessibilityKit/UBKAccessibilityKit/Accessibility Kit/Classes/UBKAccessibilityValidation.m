@@ -590,7 +590,7 @@ NSInteger const ColourContrastAAARating = 3.5;
     CGFloat contrast = 0;
     if ((foregroundColour) && (backgroundColour))
     {
-        contrast = [foregroundColour ubk_contrastRatio:backgroundColour];
+        contrast = [[foregroundColour ubk_correctedColor] ubk_contrastRatio:[backgroundColour ubk_correctedColor]];
     }
     return contrast;
 }

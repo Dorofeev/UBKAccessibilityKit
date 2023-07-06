@@ -241,6 +241,14 @@
     return nil;
 }
 
+- (UIColor *)ubk_correctedColor
+{
+    UIWindowScene *scene = (UIWindowScene *)[UIApplication.sharedApplication.connectedScenes.allObjects firstObject];
+    UIUserInterfaceStyle style = [scene.windows.firstObject overrideUserInterfaceStyle];
+    UITraitCollection *traitCollection = [UITraitCollection traitCollectionWithUserInterfaceStyle:style];
+    return [self resolvedColorWithTraitCollection:traitCollection];
+}
+
 + (UIColor *)ubk_colourFromHexString:(NSString *)hexString
 {
     unsigned rgbValue = 0;

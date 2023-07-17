@@ -78,7 +78,13 @@ static const UBKAccessibilityManager *_ubkAccessibilityManager = nil;
         self.accessibilityFilter = [[UBKAccessibilityFilter alloc]init];
         self.accessibilityColours = [[UBKAccessibilityColours alloc] init];
     }
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(willPresentViewController) name:@"UIPresentationControllerPresentationTransitionDidEndNotification" object:NULL];
     return self;
+}
+
+- (void) willPresentViewController
+{
+    [self.window bringSubviewToFront:self.window.inspectorButton];
 }
 
 //Check if any UI elements have a warning.
@@ -352,6 +358,8 @@ static const UBKAccessibilityManager *_ubkAccessibilityManager = nil;
     self.navigationViewController.isShowingInspector = false;
     [self.inspectorContainerView hideInspectorViewAnimated:true];
     
+    [self.inspectorContainerView setUserInteractionEnabled:NO];
+
     [self.currentTouchedElements removeAllObjects];
 }
 
@@ -362,6 +370,8 @@ static const UBKAccessibilityManager *_ubkAccessibilityManager = nil;
         [self.navigationViewController popViewControllerAnimated:false];
     }    
     [self.inspectorContainerView showInspectorView];
+    [_window bringSubviewToFront:_inspectorContainerView];
+    [self.inspectorContainerView setUserInteractionEnabled:YES];
     self.navigationViewController.isShowingInspector = true;
 }
 

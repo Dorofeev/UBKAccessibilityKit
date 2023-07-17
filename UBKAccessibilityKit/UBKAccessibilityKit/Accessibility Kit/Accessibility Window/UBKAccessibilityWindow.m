@@ -330,6 +330,7 @@
         }
         else if (self.movingInspectorButton == false)
         {
+            [super sendEvent:event];
             //Inspector buton was disabled and is now being moved so show the elements views.
             [[UBKAccessibilityManager sharedInstance]showInspector:true];
         }
